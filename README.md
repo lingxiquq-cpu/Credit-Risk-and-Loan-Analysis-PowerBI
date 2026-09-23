@@ -24,6 +24,38 @@ Power BI Desktop, Power Query, DAX
 4. Create three report pages: Executive Summary, Risk Driver Analysis, and Detail Drillthrough.
 5. Add a What-If parameter to simulate interest rate changes and analyze their impact on loan portfolio risk.
 
+## Key DAX Measures
+
+```DAX
+Total Loans = COUNTROWS('credit_risk_dataset')
+
+Total Loan Amount =
+SUM('credit_risk_dataset'[loan_amnt])
+
+Default Loans =
+CALCULATE(
+    [Total Loans],
+    'credit_risk_dataset'[loan_status] = 1
+)
+
+Default Rate =
+DIVIDE(
+    [Default Loans],
+    [Total Loans]
+)
+
+Average Interest Rate =
+AVERAGE('credit_risk_dataset'[loan_int_rate])
+
+Default Amount Ratio =
+DIVIDE(
+    CALCULATE(
+        [Total Loan Amount],
+        'credit_risk_dataset'[loan_status] = 1
+    ),
+    [Total Loan Amount]
+)
+
 ## Report Pages
 
 ### Page 1: Executive Summary
