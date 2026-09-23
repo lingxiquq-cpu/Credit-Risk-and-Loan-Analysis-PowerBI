@@ -31,11 +31,11 @@ Power BI Desktop, Power Query, DAX
 
 ### Page 2: Risk Driver Analysis
 
-![Page 2](images/page2-drivers.png)
+![Page 2](images/Risk-Driver-Analysis.png)
 
 ### Page 3: Detail Drillthrough
 
-![Page 3](images/page3-detail.png)
+![Page 3](images/Drtail-Drillthrough.png)
 
 ## Power BI File
 
