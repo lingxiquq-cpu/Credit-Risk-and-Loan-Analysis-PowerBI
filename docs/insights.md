@@ -8,10 +8,10 @@
 
 - Customers in **Germany** have a higher-than-average churn rate, suggesting a need to investigate local service quality, customer preferences, or competitive conditions.
 
- #Recommendations
+## Recommendations
 
-1. Provide VIP benefits and priority delivery to Champion customers.
-2. Send exclusive coupons or re-engagement emails to high-M At Risk customers.
-3. Use cross-selling strategies for Loyal customers to increase average order value.
-4. Use low-cost re-engagement strategies for Lost customers while controlling marketing costs.
-5. Allocate more marketing resources to regions with a higher concentration of high-value customers.
+- Provide VIP benefits and priority delivery to Champion customers.
+- Send exclusive coupons or re-engagement emails to high-M At Risk customers.
+- Use cross-selling strategies for Loyal customers to increase average order value.
+- Use low-cost re-engagement strategies for Lost customers while controlling marketing costs.
+- Allocate more marketing resources to regions with a higher concentration of high-value customers.
