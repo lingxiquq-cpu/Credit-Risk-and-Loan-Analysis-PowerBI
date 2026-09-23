@@ -9,6 +9,7 @@ Use Power BI, Power Query, and DAX to analyze credit risk and loan default data,
 ## Data Source
 
 - Kaggle: Credit Risk Dataset
+- Link:https://www.kaggle.com/datasets/laotse/credit-risk-dataset
 - Key fields: person_age, person_income, person_emp_length, person_home_ownership, loan_amnt, loan_int_rate, loan_grade, loan_intent, loan_percent_income, cb_person_default_on_file, loan_status
 
 ## Tools
