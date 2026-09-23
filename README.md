@@ -1,6 +1,6 @@
 # Credit Risk & Loan Default Analysis | Power BI Portfolio
 
-![Page 1 - Executive Summary](images/page1-summary.png)
+![Page 1 - Executive Summary](images/Executive-Summary.png)
 
 ## Project Introduction
 
@@ -27,7 +27,7 @@ Power BI Desktop, Power Query, DAX
 
 ### Page 1: Executive Summary
 
-![Page 1](images/page1-summary.png)
+![Page 1](images/Executive-Summary.png)
 
 ### Page 2: Risk Driver Analysis
 
