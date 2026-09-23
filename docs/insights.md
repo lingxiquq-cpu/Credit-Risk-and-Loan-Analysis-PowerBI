@@ -1,17 +1,11 @@
-# Key Insights
+# Key Insights and Recommendations
 
-- Inactive customers have a churn rate of approximately **27%**, compared with about **14%** for active customers, indicating that customer engagement is strongly associated with retention.
+1. Loan grade is strongly related to default risk: default rates generally increase from Grade A to Grade G.
 
-- Customers holding only **one product** have a churn rate of approximately **28%**, while customers holding **two products** have a much lower churn rate of around **8%**. This suggests that encouraging customers to adopt a second product may help improve customer retention.
+2. Default rates vary significantly by loan purpose: VENTURE and DEBTCONSOLIDATION generally have higher default rates than EDUCATION and MEDICAL.
 
-- Customers aged **46–60** show a relatively higher churn rate and may benefit from more targeted retention strategies.
+3. Higher DTI is associated with higher risk: borrowers with higher `loan_percent_income` generally have higher default rates.
 
-- Customers in **Germany** have a higher-than-average churn rate, suggesting a need to investigate local service quality, customer preferences, or competitive conditions.
+4. Borrowers with a previous default history have higher risk: customers with `cb_person_default_on_file = Y` have a noticeably higher default rate than those with `N`.
 
-## Recommendations
-
-- Provide VIP benefits and priority delivery to Champion customers.
-- Send exclusive coupons or re-engagement emails to high-M At Risk customers.
-- Use cross-selling strategies for Loyal customers to increase average order value.
-- Use low-cost re-engagement strategies for Lost customers while controlling marketing costs.
-- Allocate more marketing resources to regions with a higher concentration of high-value customers.
+5. Home ownership status is related to default risk: borrowers who RENT generally have higher default rates than those who OWN or have a MORTGAGE.
