@@ -58,3 +58,8 @@ Default Amount Ratio = DIVIDE([Default Loan Amount], [Total Loan Amount])
 ## Power BI File
 
 Power BI source file available in the `pbix` folder.
+
+## Author
+
+- Name: Lingxi Li
+- GitHub: lingxiquq-cpu
