@@ -39,6 +39,8 @@ Average Interest = AVERAGE('credit_risk_dataset'[loan_int_rate])
 
 Default Amount Ratio = DIVIDE([Default Loan Amount], [Total Loan Amount])
 
+```
+
 ## Report Pages
 
 ### Page 1: Executive Summary
