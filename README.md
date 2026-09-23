@@ -29,32 +29,15 @@ Power BI Desktop, Power Query, DAX
 ```DAX
 Total Loans = COUNTROWS('credit_risk_dataset')
 
-Total Loan Amount =
-SUM('credit_risk_dataset'[loan_amnt])
+Total Loan Amount = SUM('credit_risk_dataset'[loan_amnt])
 
-Default Loans =
-CALCULATE(
-    [Total Loans],
-    'credit_risk_dataset'[loan_status] = 1
-)
+Default Loan Amount = CALCULATE([Total Loan Amount], credit_risk_dataset[loan_status]=1)
 
-Default Rate =
-DIVIDE(
-    [Default Loans],
-    [Total Loans]
-)
+Default Rate =DIVIDE([Default Loans Amount],[Total Loans])
 
-Average Interest Rate =
-AVERAGE('credit_risk_dataset'[loan_int_rate])
+Average Interest = AVERAGE('credit_risk_dataset'[loan_int_rate])
 
-Default Amount Ratio =
-DIVIDE(
-    CALCULATE(
-        [Total Loan Amount],
-        'credit_risk_dataset'[loan_status] = 1
-    ),
-    [Total Loan Amount]
-)
+Default Amount Ratio = DIVIDE([Default Loan Amount], [Total Loan Amount])
 
 ## Report Pages
 
