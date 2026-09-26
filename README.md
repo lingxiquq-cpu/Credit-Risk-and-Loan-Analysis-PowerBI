@@ -1,6 +1,6 @@
 # Credit Risk & Loan Default Analysis | Power BI Portfolio
 
-![Page 1 - Executive Summary](images/Executive-Summary.pdf)
+![Page 1 - Executive Summary](images/Executive-Summary.png)
 
 ## Project Introduction
 
@@ -45,15 +45,15 @@ Default Amount Ratio = DIVIDE([Default Loan Amount], [Total Loan Amount])
 
 ### Page 1: Executive Summary
 
-![Page 1](images/Executive-Summary.pdf)
+![Page 1](images/Executive-Summary.png)
 
 ### Page 2: Risk Driver Analysis
 
-![Page 2](images/Risk-Driver-Analysis.pdf)
+![Page 2](images/Risk-Driver-Analysis.png)
 
 ### Page 3: Detail Drillthrough
 
-![Page 3](images/Drtail-Drillthrough.pdf)
+![Page 3](images/Drtail-Drillthrough.png)
 
 
 ## Key Insights
