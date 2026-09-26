@@ -49,11 +49,11 @@ Default Amount Ratio = DIVIDE([Default Loan Amount], [Total Loan Amount])
 
 ### Page 2: Risk Driver Analysis
 
-![Page 2](images/Risk-Driver-Analysis.jpg)
+![Page 2](images/Risk-Driver-Analysis.png)
 
 ### Page 3: Detail Drillthrough
 
-![Page 3](images/Drtail-Drillthrough.jpg)
+![Page 3](images/Drtail-Drillthrough.png)
 
 
 ## Key Insights
